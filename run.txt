@@ -1,0 +1,2 @@
+yolo train model=yolo11n.pt data=datasets/data.yaml epochs=50 imgsz=416 batch=2 workers=1 cache=False amp=False
+
