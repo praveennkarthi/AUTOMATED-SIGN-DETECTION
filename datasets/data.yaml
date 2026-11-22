@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['awake', 'distracted', 'drowsy', 'head drop', 'phone', 'smoking', 'yawn']
+
+roboflow:
+  workspace: saujanya-shankar
+  project: drowsiness-sgvf2
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saujanya-shankar/drowsiness-sgvf2/dataset/11
